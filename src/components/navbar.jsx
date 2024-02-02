@@ -19,7 +19,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="#proker" className="flex items-center hover:text-blue-500 transition-colors">
+        <Link href="/#proker" className="flex items-center hover:text-blue-500 transition-colors">
           Proker
         </Link>
       </Typography>
@@ -29,7 +29,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="#anggota" className="flex items-center hover:text-blue-500 transition-colors">
+        <Link href="/#anggota" className="flex items-center hover:text-blue-500 transition-colors">
           Anggota
         </Link>
       </Typography>
@@ -39,7 +39,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="#artikel" className="flex items-center hover:text-blue-500 transition-colors">
+        <Link href="/#artikel" className="flex items-center hover:text-blue-500 transition-colors">
           Artikel
         </Link>
       </Typography>
@@ -49,7 +49,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <Link href="/" className="flex items-center hover:text-blue-500 transition-colors">
           About
         </Link>
       </Typography>

@@ -7,6 +7,7 @@ import { Navbar } from "@material-tailwind/react";
 export default function DetailArtikel() {
   return (
     <div>
+      <NavBar></NavBar>
       <div className=" max-w-2xl mx-auto mt-6 p-4">
         <h1 className="text-4xl font-bold mb-4">Article Title</h1>
         <p className="text-gray-600 mb-6">Published on January 31, 2024</p>
