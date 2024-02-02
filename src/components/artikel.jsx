@@ -19,7 +19,7 @@ export function Artikel() {
         });
       }, []);
   return (
-    <div id="artikel" className="min-h-screen ">
+    <div id="artikel" className="min-h-screen md:mb-72">
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold">Artikel</h1>
         <div className="mt-2 border-b border-solid w-1/4 bg-blue-900 h-1"></div>
@@ -34,25 +34,24 @@ export function Artikel() {
             className="m-0 rounded-none"
           >
             <img
-              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+              src="/images/sosialisasi_pendampingan.jpg"
               alt="ui/ux review check"
             />
           </CardHeader>
           <CardBody>
-            <Typography variant="h4" color="blue-gray">
-              UI/UX Review Check
+            <Typography variant="h5" color="blue-gray" className="">
+            Pelatihan dan pendampingan pengolahan makanan bergizi untuk mengurangi resiko terjadinya gejala stunting...
             </Typography>
             <Typography
               variant="lead"
               color="gray"
               className="mt-3 font-normal"
             >
-              Because it&apos;s about motivating the doers. Because I&apos;m
-              here to follow my dreams and inspire others.
+              Makanan bergizi memiliki peran penting dalam menjaga kesehatan tubuh. Dalam konteks ini, KKN PMD UNRAM Periode 2023-2024 menggelar pelatihan dan...
             </Typography>
           </CardBody>
           <CardFooter className="flex items-center justify-between">
-            <Typography className="font-normal">January 10</Typography>
+            <Typography className="font-normal">February 02 2024</Typography>
           </CardFooter>
         </Card>
         </Link>

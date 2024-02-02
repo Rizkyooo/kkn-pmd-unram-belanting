@@ -15,7 +15,7 @@ export function Proker() {
     });
   }, []);
   return (
-    <div className="h-screen">
+    <div className="h-screen md: mb-96">
       <div id="proker" className="mt-14 flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold">Proker Utama</h1>
         <div className="mt-2 border-b border-solid w-1/4 bg-blue-900 h-1"></div>
